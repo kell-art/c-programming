@@ -1,0 +1,19 @@
+//*arithmetic operators*/
+# include<stdio.h>
+int main()
+{
+int a,b,add,subtract,multiply,division,remainder;
+printf("enter a,b values:");
+scanf("%d, %d",&a,&b);
+add=a+b; //addition operator
+subtract=a-b; //subtraction operator
+multiply=a*b;//multiplication operator
+division=a/b; // division operator
+ remainder=a%b; // remainder operator
+ printf("results of addition is=%d\n",add);
+ printf("results of subtract is=%d\n",subtract);
+ printf("results of multiplication is=%d\n",multiply);
+ printf("results of division is=%d\n",division);
+ printf("results of division is=%d\n",remainder);
+ return 0;
+}
