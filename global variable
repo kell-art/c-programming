@@ -1,0 +1,16 @@
+#include <stdio.h>
+int a = 10;//global variable
+void function1()
+{
+  printf("%d\n" , a);
+}
+void function2()
+{
+  printf("%d\n" , a);
+}
+int main()
+{
+  function1();
+  function2();
+    return 0;
+}
