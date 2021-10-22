@@ -1,6 +1,5 @@
 #include <iostream>
-using namespace std;
- 
+using namespace std; 
 // Function to return the only odd
 // occurring element
 int findOdd(int arr[], int n)
@@ -9,8 +8,7 @@ int findOdd(int arr[], int n)
     for (i = 0; i < n; i++)
         res ^= arr[i];
     return res;
-}
- 
+} 
 // Driver Method
 int main(void)
 {
