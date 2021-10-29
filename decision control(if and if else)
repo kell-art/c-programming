@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+{
+    int maths,kiswahili,english,computer,physics,average;
+    printf("enter value of maths,kiswalili,english,computer,physics");
+    scanf("%d%d%d%d%d",&maths,&kiswahili,&english,&computer,&physics);
+    average=(maths+kiswahili+english+computer+physics)/5;
+    if(average>=90&&average<=100)
+    {
+        printf("grade A");        
+    }
+    else if(average>=80&&average<=90)
+    {
+        printf("grade B");
+    }
+    else if(average>=70&&average<=80)
+    {
+        printf("grade C");
+    }
+    else if(average>=60&&average<=70)
+    {
+        printf("grade D");
+    }
+    else if(average>=50&&average<=60)
+    {
+        printf("average E");
+    }
+    else if(average<50)
+    {
+        printf("average F");
+    }
+    
+    return 0;
+}
