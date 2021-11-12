@@ -5,7 +5,7 @@ int main()
 	{
 		for( int j=2;j<100;j++)
 		{
-			printf("%d,%d\n",k,j);
+			printf("%d,%d\n",[k],[j]);
 		}
 	}
 	return 0;
